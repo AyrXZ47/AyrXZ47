@@ -1,0 +1,11 @@
+# fotos personales: no se suben (el workflow no las necesita)
+/source-photo.jpg
+/source-prepped.png
+
+# previews locales
+avi-static.svg
+*-preview.png
+
+# python
+__pycache__/
+*.pyc
