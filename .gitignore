@@ -2,6 +2,7 @@
 /source-*
 
 # previews locales
+avi-static.svg
 avi-*-static.svg
 *-preview.png
 /compare.png
