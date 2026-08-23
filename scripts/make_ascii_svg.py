@@ -54,8 +54,8 @@ INK = "#c9d1d9"      # the single ascii color (matches Andrew6rant)
 CURSOR = "#c9d1d9"
 
 # ---- reveal timing (one-shot; a cursor rasters top -> bottom) -------------
-ROW_DUR = 0.038     # ~53 filas * 0.038s ≈ 2s total (rápido pero legible)
-STAGGER = 0.038     # == ROW_DUR -> a single cursor sweeping down
+ROW_DUR = 0.02      # ~53 filas * 0.02s ≈ 1.1s total (impronta rápida)
+STAGGER = 0.02      # == ROW_DUR -> a single cursor sweeping down
 
 # ---- 1. sample the image into a COLS x ROWS grayscale grid ----------------
 im = Image.open(SRC).convert("L")               # grayscale
