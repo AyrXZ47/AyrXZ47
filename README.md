@@ -20,7 +20,7 @@
 <p>
 <a href="https://x.com/YovickRZ"><img src="https://img.shields.io/badge/-@YovickRZ-1E3A8A?style=for-the-badge&logo=x&logoColor=white&labelColor=1E3A8A" alt="@YovickRZ" /></a>
 <a href="https://www.youtube.com/@yovickrz"><img src="https://img.shields.io/badge/-@yovickrz-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000" alt="@yovickrz" /></a>
-<a href="https://www.linkedin.com/in/yovick-rz"><img src="https://img.shields.io/badge/-yovick-rz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="yovick-rz" /></a>
+<a href="https://www.linkedin.com/in/yovick-rz"><img src="https://img.shields.io/badge/-yovick--rz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="yovick--rz" /></a>
 </p>
 
 <br>
