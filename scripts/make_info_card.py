@@ -43,24 +43,24 @@ ACCENT = "#22d3ee"
 #    ("bul", text)          -> green dot + light bullet
 #    ("gap",)               -> a little vertical space
 # ===========================================================================
-HOST = "yovick"   # shown as  yovick@github  in the header
+HOST = "yovickrz"   # shown as  yovickrz@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Desarrollo de sistemas"),
-    ("kv", "Also", "Cohetes y aviónica"),
-    ("kv", "Loc", "Zacatecas, México"),
+    ("kv", "Now", "Systems development"),
+    ("kv", "Also", "Rockets & avionics"),
+    ("kv", "Loc", "Zacatecas, Mexico"),
     ("kv", "Site", "x.com/YovickRZ"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Sistemas", "Rust, NixOS, Linux"),
+    ("kv", "Systems", "Rust, NixOS, Linux"),
     ("kv", "Web", "JS/TS, Python"),
     ("kv", "Embedded", "C, C++, hardware"),
     ("gap",),
     ("sec", "Highlights"),
-    ("bul", "Ignición solid-state remota para cohetes"),
-    ("bul", "Perfilación crediticia en Rust"),
-    ("bul", "Dotfiles NixOS de punta a punta"),
+    ("bul", "Remote solid-state ignition for rockets"),
+    ("bul", "Credit profiling pipelines in Rust"),
+    ("bul", "End-to-end NixOS dotfiles"),
 ]
 
 
@@ -92,7 +92,7 @@ parts = [
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 parts.append(f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-             f'text-anchor="middle">{esc(HOST)}@github: ~$ neofetch</text>')
+             f'text-anchor="middle">{esc(HOST)}@github: ~$ fastfetch</text>')
 
 y = TITLEBAR_H + 30
 for i, row in enumerate(ROWS):
