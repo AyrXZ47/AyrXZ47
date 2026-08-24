@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-## Yovick R. Z.
+## Yovick RZ
 
 **Desarrollo de sistemas · Cohetes y aviónica · NixOS**
 
